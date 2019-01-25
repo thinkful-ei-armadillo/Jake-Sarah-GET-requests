@@ -49,7 +49,7 @@ function getDogBreed(dogBreed){
 function breedForm(){
   $('.breed-form').submit(event => {
     event.preventDefault();
-    const dogBreed= $('.dog-breed').val();
+    const dogBreed= $('#dog-breed').val();
     console.log(dogBreed);
     getDogBreed(dogBreed);
   });
